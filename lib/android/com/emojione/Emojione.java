@@ -35,8 +35,7 @@ public abstract class Emojione
         return input;
     }
 
-
-    static {
+    private static void _init1() {
         _shortNameToUnicode.put("+1", new String(new int[] {0x1f44d}, 0, 1));
         _shortNameToUnicode.put("+1_tone1", new String(new int[] {0x1f44d, 0x1f3fb}, 0, 2));
         _shortNameToUnicode.put("+1_tone2", new String(new int[] {0x1f44d, 0x1f3fc}, 0, 2));
@@ -137,6 +136,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("baby_bottle", new String(new int[] {0x1f37c}, 0, 1));
         _shortNameToUnicode.put("baby_chick", new String(new int[] {0x1f424}, 0, 1));
         _shortNameToUnicode.put("baby_symbol", new String(new int[] {0x1f6bc}, 0, 1));
+    }
+    
+    private static void _init2() {
         _shortNameToUnicode.put("baby_tone1", new String(new int[] {0x1f476, 0x1f3fb}, 0, 2));
         _shortNameToUnicode.put("baby_tone2", new String(new int[] {0x1f476, 0x1f3fc}, 0, 2));
         _shortNameToUnicode.put("baby_tone3", new String(new int[] {0x1f476, 0x1f3fd}, 0, 2));
@@ -237,6 +239,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("blond-haired_man_tone5", new String(new int[] {0x1f471, 0x1f3ff, 0x2642}, 0, 3));
         _shortNameToUnicode.put("blond-haired_woman", new String(new int[] {0x1f471, 0x2640}, 0, 2));
         _shortNameToUnicode.put("blond-haired_woman_dark_skin_tone", new String(new int[] {0x1f471, 0x1f3ff, 0x2640}, 0, 3));
+    }
+    
+    private static void _init3() {
         _shortNameToUnicode.put("blond-haired_woman_light_skin_tone", new String(new int[] {0x1f471, 0x1f3fb, 0x2640}, 0, 3));
         _shortNameToUnicode.put("blond-haired_woman_medium_dark_skin_tone", new String(new int[] {0x1f471, 0x1f3fe, 0x2640}, 0, 3));
         _shortNameToUnicode.put("blond-haired_woman_medium_light_skin_tone", new String(new int[] {0x1f471, 0x1f3fc, 0x2640}, 0, 3));
@@ -337,6 +342,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("calling", new String(new int[] {0x1f4f2}, 0, 1));
         _shortNameToUnicode.put("camel", new String(new int[] {0x1f42b}, 0, 1));
         _shortNameToUnicode.put("camera", new String(new int[] {0x1f4f7}, 0, 1));
+    }
+    
+    private static void _init4() {
         _shortNameToUnicode.put("camera_with_flash", new String(new int[] {0x1f4f8}, 0, 1));
         _shortNameToUnicode.put("camping", new String(new int[] {0x1f3d5}, 0, 1));
         _shortNameToUnicode.put("cancer", new String(new int[] {0x264b}, 0, 1));
@@ -437,6 +445,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("cloud_tornado", new String(new int[] {0x1f32a}, 0, 1));
         _shortNameToUnicode.put("cloud_with_lightning", new String(new int[] {0x1f329}, 0, 1));
         _shortNameToUnicode.put("cloud_with_rain", new String(new int[] {0x1f327}, 0, 1));
+    }
+    
+    private static void _init5() {
         _shortNameToUnicode.put("cloud_with_snow", new String(new int[] {0x1f328}, 0, 1));
         _shortNameToUnicode.put("cloud_with_tornado", new String(new int[] {0x1f32a}, 0, 1));
         _shortNameToUnicode.put("clown", new String(new int[] {0x1f921}, 0, 1));
@@ -537,6 +548,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("dango", new String(new int[] {0x1f361}, 0, 1));
         _shortNameToUnicode.put("dark_sunglasses", new String(new int[] {0x1f576}, 0, 1));
         _shortNameToUnicode.put("dart", new String(new int[] {0x1f3af}, 0, 1));
+    }
+    
+    private static void _init6() {
         _shortNameToUnicode.put("dash", new String(new int[] {0x1f4a8}, 0, 1));
         _shortNameToUnicode.put("date", new String(new int[] {0x1f4c5}, 0, 1));
         _shortNameToUnicode.put("de", new String(new int[] {0x1f1e9, 0x1f1ea}, 0, 2));
@@ -637,6 +651,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("european_castle", new String(new int[] {0x1f3f0}, 0, 1));
         _shortNameToUnicode.put("european_post_office", new String(new int[] {0x1f3e4}, 0, 1));
         _shortNameToUnicode.put("evergreen_tree", new String(new int[] {0x1f332}, 0, 1));
+    }
+    
+    private static void _init7() {
         _shortNameToUnicode.put("exclamation", new String(new int[] {0x2757}, 0, 1));
         _shortNameToUnicode.put("expecting_woman", new String(new int[] {0x1f930}, 0, 1));
         _shortNameToUnicode.put("expecting_woman_tone1", new String(new int[] {0x1f930, 0x1f3fb}, 0, 2));
@@ -737,6 +754,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("flag_ad", new String(new int[] {0x1f1e6, 0x1f1e9}, 0, 2));
         _shortNameToUnicode.put("flag_ae", new String(new int[] {0x1f1e6, 0x1f1ea}, 0, 2));
         _shortNameToUnicode.put("flag_af", new String(new int[] {0x1f1e6, 0x1f1eb}, 0, 2));
+    }
+    
+    private static void _init8() {
         _shortNameToUnicode.put("flag_ag", new String(new int[] {0x1f1e6, 0x1f1ec}, 0, 2));
         _shortNameToUnicode.put("flag_ai", new String(new int[] {0x1f1e6, 0x1f1ee}, 0, 2));
         _shortNameToUnicode.put("flag_al", new String(new int[] {0x1f1e6, 0x1f1f1}, 0, 2));
@@ -837,6 +857,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("flag_hm", new String(new int[] {0x1f1ed, 0x1f1f2}, 0, 2));
         _shortNameToUnicode.put("flag_hn", new String(new int[] {0x1f1ed, 0x1f1f3}, 0, 2));
         _shortNameToUnicode.put("flag_hr", new String(new int[] {0x1f1ed, 0x1f1f7}, 0, 2));
+    }
+    
+    private static void _init9() {
         _shortNameToUnicode.put("flag_ht", new String(new int[] {0x1f1ed, 0x1f1f9}, 0, 2));
         _shortNameToUnicode.put("flag_hu", new String(new int[] {0x1f1ed, 0x1f1fa}, 0, 2));
         _shortNameToUnicode.put("flag_ic", new String(new int[] {0x1f1ee, 0x1f1e8}, 0, 2));
@@ -937,6 +960,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("flag_sc", new String(new int[] {0x1f1f8, 0x1f1e8}, 0, 2));
         _shortNameToUnicode.put("flag_sd", new String(new int[] {0x1f1f8, 0x1f1e9}, 0, 2));
         _shortNameToUnicode.put("flag_se", new String(new int[] {0x1f1f8, 0x1f1ea}, 0, 2));
+    }
+    
+    private static void _init10() {
         _shortNameToUnicode.put("flag_sg", new String(new int[] {0x1f1f8, 0x1f1ec}, 0, 2));
         _shortNameToUnicode.put("flag_sh", new String(new int[] {0x1f1f8, 0x1f1ed}, 0, 2));
         _shortNameToUnicode.put("flag_si", new String(new int[] {0x1f1f8, 0x1f1ee}, 0, 2));
@@ -1037,6 +1063,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("gear", new String(new int[] {0x2699}, 0, 1));
         _shortNameToUnicode.put("gem", new String(new int[] {0x1f48e}, 0, 1));
         _shortNameToUnicode.put("gemini", new String(new int[] {0x264a}, 0, 1));
+    }
+    
+    private static void _init11() {
         _shortNameToUnicode.put("gf", new String(new int[] {0x1f1ec, 0x1f1eb}, 0, 2));
         _shortNameToUnicode.put("gg", new String(new int[] {0x1f1ec, 0x1f1ec}, 0, 2));
         _shortNameToUnicode.put("gh", new String(new int[] {0x1f1ec, 0x1f1ed}, 0, 2));
@@ -1137,6 +1166,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("hatching_chick", new String(new int[] {0x1f423}, 0, 1));
         _shortNameToUnicode.put("head_bandage", new String(new int[] {0x1f915}, 0, 1));
         _shortNameToUnicode.put("headphones", new String(new int[] {0x1f3a7}, 0, 1));
+    }
+    
+    private static void _init12() {
         _shortNameToUnicode.put("hear_no_evil", new String(new int[] {0x1f649}, 0, 1));
         _shortNameToUnicode.put("heart", new String(new int[] {0x2764}, 0, 1));
         _shortNameToUnicode.put("heart_decoration", new String(new int[] {0x1f49f}, 0, 1));
@@ -1237,6 +1269,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("joystick", new String(new int[] {0x1f579}, 0, 1));
         _shortNameToUnicode.put("jp", new String(new int[] {0x1f1ef, 0x1f1f5}, 0, 2));
         _shortNameToUnicode.put("juggler", new String(new int[] {0x1f939}, 0, 1));
+    }
+    
+    private static void _init13() {
         _shortNameToUnicode.put("juggler_tone1", new String(new int[] {0x1f939, 0x1f3fb}, 0, 2));
         _shortNameToUnicode.put("juggler_tone2", new String(new int[] {0x1f939, 0x1f3fc}, 0, 2));
         _shortNameToUnicode.put("juggler_tone3", new String(new int[] {0x1f939, 0x1f3fd}, 0, 2));
@@ -1337,6 +1372,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("lock_with_ink_pen", new String(new int[] {0x1f50f}, 0, 1));
         _shortNameToUnicode.put("lollipop", new String(new int[] {0x1f36d}, 0, 1));
         _shortNameToUnicode.put("loop", new String(new int[] {0x27bf}, 0, 1));
+    }
+    
+    private static void _init14() {
         _shortNameToUnicode.put("loud_sound", new String(new int[] {0x1f50a}, 0, 1));
         _shortNameToUnicode.put("loudspeaker", new String(new int[] {0x1f4e2}, 0, 1));
         _shortNameToUnicode.put("love_hotel", new String(new int[] {0x1f3e9}, 0, 1));
@@ -1437,6 +1475,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("man_cartwheeling_tone4", new String(new int[] {0x1f938, 0x1f3fe, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_cartwheeling_tone5", new String(new int[] {0x1f938, 0x1f3ff, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_construction_worker", new String(new int[] {0x1f477, 0x2642}, 0, 2));
+    }
+    
+    private static void _init15() {
         _shortNameToUnicode.put("man_construction_worker_dark_skin_tone", new String(new int[] {0x1f477, 0x1f3ff, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_construction_worker_light_skin_tone", new String(new int[] {0x1f477, 0x1f3fb, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_construction_worker_medium_dark_skin_tone", new String(new int[] {0x1f477, 0x1f3fe, 0x2642}, 0, 3));
@@ -1537,6 +1578,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("man_gesturing_no_medium_light_skin_tone", new String(new int[] {0x1f645, 0x1f3fc, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_gesturing_no_medium_skin_tone", new String(new int[] {0x1f645, 0x1f3fd, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_gesturing_no_tone1", new String(new int[] {0x1f645, 0x1f3fb, 0x2642}, 0, 3));
+    }
+    
+    private static void _init16() {
         _shortNameToUnicode.put("man_gesturing_no_tone2", new String(new int[] {0x1f645, 0x1f3fc, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_gesturing_no_tone3", new String(new int[] {0x1f645, 0x1f3fd, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_gesturing_no_tone4", new String(new int[] {0x1f645, 0x1f3fe, 0x2642}, 0, 3));
@@ -1637,6 +1681,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("man_juggling", new String(new int[] {0x1f939, 0x2642}, 0, 2));
         _shortNameToUnicode.put("man_juggling_dark_skin_tone", new String(new int[] {0x1f939, 0x1f3ff, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_juggling_light_skin_tone", new String(new int[] {0x1f939, 0x1f3fb, 0x2642}, 0, 3));
+    }
+    
+    private static void _init17() {
         _shortNameToUnicode.put("man_juggling_medium_dark_skin_tone", new String(new int[] {0x1f939, 0x1f3fe, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_juggling_medium_light_skin_tone", new String(new int[] {0x1f939, 0x1f3fc, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_juggling_medium_skin_tone", new String(new int[] {0x1f939, 0x1f3fd, 0x2642}, 0, 3));
@@ -1737,6 +1784,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("man_pouting_dark_skin_tone", new String(new int[] {0x1f64e, 0x1f3ff, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_pouting_light_skin_tone", new String(new int[] {0x1f64e, 0x1f3fb, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_pouting_medium_dark_skin_tone", new String(new int[] {0x1f64e, 0x1f3fe, 0x2642}, 0, 3));
+    }
+    
+    private static void _init18() {
         _shortNameToUnicode.put("man_pouting_medium_light_skin_tone", new String(new int[] {0x1f64e, 0x1f3fc, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_pouting_medium_skin_tone", new String(new int[] {0x1f64e, 0x1f3fd, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_pouting_tone1", new String(new int[] {0x1f64e, 0x1f3fb, 0x2642}, 0, 3));
@@ -1837,6 +1887,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("man_swimming_light_skin_tone", new String(new int[] {0x1f3ca, 0x1f3fb, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_swimming_medium_dark_skin_tone", new String(new int[] {0x1f3ca, 0x1f3fe, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_swimming_medium_light_skin_tone", new String(new int[] {0x1f3ca, 0x1f3fc, 0x2642}, 0, 3));
+    }
+    
+    private static void _init19() {
         _shortNameToUnicode.put("man_swimming_medium_skin_tone", new String(new int[] {0x1f3ca, 0x1f3fd, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_swimming_tone1", new String(new int[] {0x1f3ca, 0x1f3fb, 0x2642}, 0, 3));
         _shortNameToUnicode.put("man_swimming_tone2", new String(new int[] {0x1f3ca, 0x1f3fc, 0x2642}, 0, 3));
@@ -1937,6 +1990,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("md", new String(new int[] {0x1f1f2, 0x1f1e9}, 0, 2));
         _shortNameToUnicode.put("me", new String(new int[] {0x1f1f2, 0x1f1ea}, 0, 2));
         _shortNameToUnicode.put("meat_on_bone", new String(new int[] {0x1f356}, 0, 1));
+    }
+    
+    private static void _init20() {
         _shortNameToUnicode.put("medal", new String(new int[] {0x1f3c5}, 0, 1));
         _shortNameToUnicode.put("medical_symbol", new String(new int[] {0x2695}, 0, 1));
         _shortNameToUnicode.put("mega", new String(new int[] {0x1f4e3}, 0, 1));
@@ -2037,6 +2093,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("mv", new String(new int[] {0x1f1f2, 0x1f1fb}, 0, 2));
         _shortNameToUnicode.put("mw", new String(new int[] {0x1f1f2, 0x1f1fc}, 0, 2));
         _shortNameToUnicode.put("mx", new String(new int[] {0x1f1f2, 0x1f1fd}, 0, 2));
+    }
+    
+    private static void _init21() {
         _shortNameToUnicode.put("my", new String(new int[] {0x1f1f2, 0x1f1fe}, 0, 2));
         _shortNameToUnicode.put("mz", new String(new int[] {0x1f1f2, 0x1f1ff}, 0, 2));
         _shortNameToUnicode.put("na", new String(new int[] {0x1f1f3, 0x1f1e6}, 0, 2));
@@ -2137,6 +2196,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("older_woman_tone5", new String(new int[] {0x1f475, 0x1f3ff}, 0, 2));
         _shortNameToUnicode.put("om", new String(new int[] {0x1f1f4, 0x1f1f2}, 0, 2));
         _shortNameToUnicode.put("om_symbol", new String(new int[] {0x1f549}, 0, 1));
+    }
+    
+    private static void _init22() {
         _shortNameToUnicode.put("on", new String(new int[] {0x1f51b}, 0, 1));
         _shortNameToUnicode.put("oncoming_automobile", new String(new int[] {0x1f698}, 0, 1));
         _shortNameToUnicode.put("oncoming_bus", new String(new int[] {0x1f68d}, 0, 1));
@@ -2237,6 +2299,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("person_gesturing_no_tone4", new String(new int[] {0x1f645, 0x1f3fe}, 0, 2));
         _shortNameToUnicode.put("person_gesturing_no_tone5", new String(new int[] {0x1f645, 0x1f3ff}, 0, 2));
         _shortNameToUnicode.put("person_gesturing_ok", new String(new int[] {0x1f646}, 0, 1));
+    }
+    
+    private static void _init23() {
         _shortNameToUnicode.put("person_gesturing_ok_tone1", new String(new int[] {0x1f646, 0x1f3fb}, 0, 2));
         _shortNameToUnicode.put("person_gesturing_ok_tone2", new String(new int[] {0x1f646, 0x1f3fc}, 0, 2));
         _shortNameToUnicode.put("person_gesturing_ok_tone3", new String(new int[] {0x1f646, 0x1f3fd}, 0, 2));
@@ -2337,6 +2402,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("person_shrugging_tone5", new String(new int[] {0x1f937, 0x1f3ff}, 0, 2));
         _shortNameToUnicode.put("person_surfing", new String(new int[] {0x1f3c4}, 0, 1));
         _shortNameToUnicode.put("person_surfing_tone1", new String(new int[] {0x1f3c4, 0x1f3fb}, 0, 2));
+    }
+    
+    private static void _init24() {
         _shortNameToUnicode.put("person_surfing_tone2", new String(new int[] {0x1f3c4, 0x1f3fc}, 0, 2));
         _shortNameToUnicode.put("person_surfing_tone3", new String(new int[] {0x1f3c4, 0x1f3fd}, 0, 2));
         _shortNameToUnicode.put("person_surfing_tone4", new String(new int[] {0x1f3c4, 0x1f3fe}, 0, 2));
@@ -2437,6 +2505,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("police_officer_tone2", new String(new int[] {0x1f46e, 0x1f3fc}, 0, 2));
         _shortNameToUnicode.put("police_officer_tone3", new String(new int[] {0x1f46e, 0x1f3fd}, 0, 2));
         _shortNameToUnicode.put("police_officer_tone4", new String(new int[] {0x1f46e, 0x1f3fe}, 0, 2));
+    }
+    
+    private static void _init25() {
         _shortNameToUnicode.put("police_officer_tone5", new String(new int[] {0x1f46e, 0x1f3ff}, 0, 2));
         _shortNameToUnicode.put("poo", new String(new int[] {0x1f4a9}, 0, 1));
         _shortNameToUnicode.put("poodle", new String(new int[] {0x1f429}, 0, 1));
@@ -2537,6 +2608,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("raised_hand_with_part_between_middle_and_ring_fingers_tone2", new String(new int[] {0x1f596, 0x1f3fc}, 0, 2));
         _shortNameToUnicode.put("raised_hand_with_part_between_middle_and_ring_fingers_tone3", new String(new int[] {0x1f596, 0x1f3fd}, 0, 2));
         _shortNameToUnicode.put("raised_hand_with_part_between_middle_and_ring_fingers_tone4", new String(new int[] {0x1f596, 0x1f3fe}, 0, 2));
+    }
+    
+    private static void _init26() {
         _shortNameToUnicode.put("raised_hand_with_part_between_middle_and_ring_fingers_tone5", new String(new int[] {0x1f596, 0x1f3ff}, 0, 2));
         _shortNameToUnicode.put("raised_hands", new String(new int[] {0x1f64c}, 0, 1));
         _shortNameToUnicode.put("raised_hands_tone1", new String(new int[] {0x1f64c, 0x1f3fb}, 0, 2));
@@ -2637,6 +2711,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("rowboat", new String(new int[] {0x1f6a3}, 0, 1));
         _shortNameToUnicode.put("rowboat_tone1", new String(new int[] {0x1f6a3, 0x1f3fb}, 0, 2));
         _shortNameToUnicode.put("rowboat_tone2", new String(new int[] {0x1f6a3, 0x1f3fc}, 0, 2));
+    }
+    
+    private static void _init27() {
         _shortNameToUnicode.put("rowboat_tone3", new String(new int[] {0x1f6a3, 0x1f3fd}, 0, 2));
         _shortNameToUnicode.put("rowboat_tone4", new String(new int[] {0x1f6a3, 0x1f3fe}, 0, 2));
         _shortNameToUnicode.put("rowboat_tone5", new String(new int[] {0x1f6a3, 0x1f3ff}, 0, 2));
@@ -2737,6 +2814,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("sk", new String(new int[] {0x1f1f8, 0x1f1f0}, 0, 2));
         _shortNameToUnicode.put("skeleton", new String(new int[] {0x1f480}, 0, 1));
         _shortNameToUnicode.put("ski", new String(new int[] {0x1f3bf}, 0, 1));
+    }
+    
+    private static void _init28() {
         _shortNameToUnicode.put("skier", new String(new int[] {0x26f7}, 0, 1));
         _shortNameToUnicode.put("skull", new String(new int[] {0x1f480}, 0, 1));
         _shortNameToUnicode.put("skull_and_crossbones", new String(new int[] {0x2620}, 0, 1));
@@ -2837,6 +2917,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("steam_locomotive", new String(new int[] {0x1f682}, 0, 1));
         _shortNameToUnicode.put("stew", new String(new int[] {0x1f372}, 0, 1));
         _shortNameToUnicode.put("stop_button", new String(new int[] {0x23f9}, 0, 1));
+    }
+    
+    private static void _init29() {
         _shortNameToUnicode.put("stop_sign", new String(new int[] {0x1f6d1}, 0, 1));
         _shortNameToUnicode.put("stopwatch", new String(new int[] {0x23f1}, 0, 1));
         _shortNameToUnicode.put("straight_ruler", new String(new int[] {0x1f4cf}, 0, 1));
@@ -2937,6 +3020,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("tiger", new String(new int[] {0x1f42f}, 0, 1));
         _shortNameToUnicode.put("tiger2", new String(new int[] {0x1f405}, 0, 1));
         _shortNameToUnicode.put("timer", new String(new int[] {0x23f2}, 0, 1));
+    }
+    
+    private static void _init30() {
         _shortNameToUnicode.put("timer_clock", new String(new int[] {0x23f2}, 0, 1));
         _shortNameToUnicode.put("tired_face", new String(new int[] {0x1f62b}, 0, 1));
         _shortNameToUnicode.put("tj", new String(new int[] {0x1f1f9, 0x1f1ef}, 0, 2));
@@ -3037,6 +3123,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("ve", new String(new int[] {0x1f1fb, 0x1f1ea}, 0, 2));
         _shortNameToUnicode.put("vertical_traffic_light", new String(new int[] {0x1f6a6}, 0, 1));
         _shortNameToUnicode.put("vg", new String(new int[] {0x1f1fb, 0x1f1ec}, 0, 2));
+    }
+    
+    private static void _init31() {
         _shortNameToUnicode.put("vhs", new String(new int[] {0x1f4fc}, 0, 1));
         _shortNameToUnicode.put("vi", new String(new int[] {0x1f1fb, 0x1f1ee}, 0, 2));
         _shortNameToUnicode.put("vibration_mode", new String(new int[] {0x1f4f3}, 0, 1));
@@ -3137,6 +3226,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("woman_astronaut", new String(new int[] {0x1f469, 0x1f680}, 0, 2));
         _shortNameToUnicode.put("woman_astronaut_dark_skin_tone", new String(new int[] {0x1f469, 0x1f3ff, 0x1f680}, 0, 3));
         _shortNameToUnicode.put("woman_astronaut_light_skin_tone", new String(new int[] {0x1f469, 0x1f3fb, 0x1f680}, 0, 3));
+    }
+    
+    private static void _init32() {
         _shortNameToUnicode.put("woman_astronaut_medium_dark_skin_tone", new String(new int[] {0x1f469, 0x1f3fe, 0x1f680}, 0, 3));
         _shortNameToUnicode.put("woman_astronaut_medium_light_skin_tone", new String(new int[] {0x1f469, 0x1f3fc, 0x1f680}, 0, 3));
         _shortNameToUnicode.put("woman_astronaut_medium_skin_tone", new String(new int[] {0x1f469, 0x1f3fd, 0x1f680}, 0, 3));
@@ -3237,6 +3329,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("woman_factory_worker_dark_skin_tone", new String(new int[] {0x1f469, 0x1f3ff, 0x1f3ed}, 0, 3));
         _shortNameToUnicode.put("woman_factory_worker_light_skin_tone", new String(new int[] {0x1f469, 0x1f3fb, 0x1f3ed}, 0, 3));
         _shortNameToUnicode.put("woman_factory_worker_medium_dark_skin_tone", new String(new int[] {0x1f469, 0x1f3fe, 0x1f3ed}, 0, 3));
+    }
+    
+    private static void _init33() {
         _shortNameToUnicode.put("woman_factory_worker_medium_light_skin_tone", new String(new int[] {0x1f469, 0x1f3fc, 0x1f3ed}, 0, 3));
         _shortNameToUnicode.put("woman_factory_worker_medium_skin_tone", new String(new int[] {0x1f469, 0x1f3fd, 0x1f3ed}, 0, 3));
         _shortNameToUnicode.put("woman_factory_worker_tone1", new String(new int[] {0x1f469, 0x1f3fb, 0x1f3ed}, 0, 3));
@@ -3337,6 +3432,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("woman_guard_light_skin_tone", new String(new int[] {0x1f482, 0x1f3fb, 0x2640}, 0, 3));
         _shortNameToUnicode.put("woman_guard_medium_dark_skin_tone", new String(new int[] {0x1f482, 0x1f3fe, 0x2640}, 0, 3));
         _shortNameToUnicode.put("woman_guard_medium_light_skin_tone", new String(new int[] {0x1f482, 0x1f3fc, 0x2640}, 0, 3));
+    }
+    
+    private static void _init34() {
         _shortNameToUnicode.put("woman_guard_medium_skin_tone", new String(new int[] {0x1f482, 0x1f3fd, 0x2640}, 0, 3));
         _shortNameToUnicode.put("woman_guard_tone1", new String(new int[] {0x1f482, 0x1f3fb, 0x2640}, 0, 3));
         _shortNameToUnicode.put("woman_guard_tone2", new String(new int[] {0x1f482, 0x1f3fc, 0x2640}, 0, 3));
@@ -3437,6 +3535,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("woman_playing_handball_medium_dark_skin_tone", new String(new int[] {0x1f93e, 0x1f3fe, 0x2640}, 0, 3));
         _shortNameToUnicode.put("woman_playing_handball_medium_light_skin_tone", new String(new int[] {0x1f93e, 0x1f3fc, 0x2640}, 0, 3));
         _shortNameToUnicode.put("woman_playing_handball_medium_skin_tone", new String(new int[] {0x1f93e, 0x1f3fd, 0x2640}, 0, 3));
+    }
+    
+    private static void _init35() {
         _shortNameToUnicode.put("woman_playing_handball_tone1", new String(new int[] {0x1f93e, 0x1f3fb, 0x2640}, 0, 3));
         _shortNameToUnicode.put("woman_playing_handball_tone2", new String(new int[] {0x1f93e, 0x1f3fc, 0x2640}, 0, 3));
         _shortNameToUnicode.put("woman_playing_handball_tone3", new String(new int[] {0x1f93e, 0x1f3fd, 0x2640}, 0, 3));
@@ -3537,6 +3638,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("woman_singer_medium_light_skin_tone", new String(new int[] {0x1f469, 0x1f3fc, 0x1f3a4}, 0, 3));
         _shortNameToUnicode.put("woman_singer_medium_skin_tone", new String(new int[] {0x1f469, 0x1f3fd, 0x1f3a4}, 0, 3));
         _shortNameToUnicode.put("woman_singer_tone1", new String(new int[] {0x1f469, 0x1f3fb, 0x1f3a4}, 0, 3));
+    }
+    
+    private static void _init36() {
         _shortNameToUnicode.put("woman_singer_tone2", new String(new int[] {0x1f469, 0x1f3fc, 0x1f3a4}, 0, 3));
         _shortNameToUnicode.put("woman_singer_tone3", new String(new int[] {0x1f469, 0x1f3fd, 0x1f3a4}, 0, 3));
         _shortNameToUnicode.put("woman_singer_tone4", new String(new int[] {0x1f469, 0x1f3fe, 0x1f3a4}, 0, 3));
@@ -3637,6 +3741,9 @@ public abstract class Emojione
         _shortNameToUnicode.put("womans_clothes", new String(new int[] {0x1f45a}, 0, 1));
         _shortNameToUnicode.put("womans_hat", new String(new int[] {0x1f452}, 0, 1));
         _shortNameToUnicode.put("women_with_bunny_ears_partying", new String(new int[] {0x1f46f, 0x2640}, 0, 2));
+    }
+    
+    private static void _init37() {
         _shortNameToUnicode.put("women_wrestling", new String(new int[] {0x1f93c, 0x2640}, 0, 2));
         _shortNameToUnicode.put("womens", new String(new int[] {0x1f6ba}, 0, 1));
         _shortNameToUnicode.put("world_map", new String(new int[] {0x1f5fa}, 0, 1));
@@ -3668,6 +3775,47 @@ public abstract class Emojione
         _shortNameToUnicode.put("zm", new String(new int[] {0x1f1ff, 0x1f1f2}, 0, 2));
         _shortNameToUnicode.put("zw", new String(new int[] {0x1f1ff, 0x1f1fc}, 0, 2));
         _shortNameToUnicode.put("zzz", new String(new int[] {0x1f4a4}, 0, 1));
+    }
+    
+
+    static {
+        _init1();
+        _init2();
+        _init3();
+        _init4();
+        _init5();
+        _init6();
+        _init7();
+        _init8();
+        _init9();
+        _init10();
+        _init11();
+        _init12();
+        _init13();
+        _init14();
+        _init15();
+        _init16();
+        _init17();
+        _init18();
+        _init19();
+        _init20();
+        _init21();
+        _init22();
+        _init23();
+        _init24();
+        _init25();
+        _init26();
+        _init27();
+        _init28();
+        _init29();
+        _init30();
+        _init31();
+        _init32();
+        _init33();
+        _init34();
+        _init35();
+        _init36();
+        _init37();
     }
 
 }

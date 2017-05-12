@@ -35,9 +35,10 @@ public abstract class Emojione
         return input;
     }
 
+    <%= methods_mapping %>
 
     static {
-        <%= mapping %>
+<%= static_mapping %>
     }
 
 }
